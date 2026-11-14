@@ -754,7 +754,7 @@ body.picking #picker{display:flex}
   }
 
   // ---------- Link between the Chrome copy and the Ecamm copy ----------
-  const ROOM = (qs.get('room') || 'pochadepalette1884-munsell-v3').replace(/[^\w-]/g, '');
+  const ROOM = (qs.get('room') || 'pochadepalette1884-munsell-v5').replace(/[^\w-]/g, '');
   const peerOpts = qs.get('peerhost')
     ? { host: qs.get('peerhost'), port: +(qs.get('peerport') || 9000), path: qs.get('peerpath') || '/', secure: false }
     : {};
